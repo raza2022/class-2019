@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        <!-- combitation selector -->
+        p.big{
+            font-size: 24px;
+            color: blue
+        }
+    /*    child selector*/
+        div > p {
+            color: red;
+        }
+    /*   descendant selector  */
+        div .nice{
+            background: black;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span class="nice">Yes I am in div</span>
+</div>
+<span class="nice">I remain un-effected</span>
+<div>
+    <p>class will applied to child element</p>
+    Test is always best
+</div>
+<p>I am not a direct child :(</p>
+<p class="big">
+    this is big class applied test
+</p>
+<div class="big">
+    same class but not applied because of combination
+</div>
+</body>
+</html>
