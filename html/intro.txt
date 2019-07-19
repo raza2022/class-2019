@@ -1,0 +1,27 @@
+HTML
+hypertext Markup Language
+Hyper = hyper media
+Markup = content (convert into markup)
+language (specific in tags for wrong or write)
+
+HTML -> Structure
+
+CSS -> Style ()
+
+Javascript -> Behavior
+
+
+caniuse.com
+https://validator.w3.org/
+
+HTML Tags
+
+Block level (render to begin on a new line )
+may contain inline or other block level elements
+
+inline-elements
+only contain inline elements
+
+
+HTML5
+
